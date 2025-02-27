@@ -21,3 +21,9 @@ The folders data_shoes and data_dresses contain the obtained relevance judgments
   - 'docno': the name of the candidate image item for the corresponding target, as indicated in the target-candidate pairs of the original dataset
   - 'docid': the corresponding ids
   - 'rank': the rank of the candidate (top-ranked item), which is 0
+
+
+## Meta-Simulator information
+Running the experiments with our Meta-Simulators requires the installation of [Pyterrier-fcrs]{https://github.com/cmacdonald/pyterrier_fcrs
+
+The file 'shoes_ege_alter_exp.ipynb' contains an example experiment of our MetaSimProb with EGE in Shoes.
