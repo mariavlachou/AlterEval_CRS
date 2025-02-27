@@ -27,3 +27,4 @@ The folders data_shoes and data_dresses contain the obtained relevance judgments
 Running the experiments with our Meta-Simulators requires the installation of [Pyterrier-fcrs](https://github.com/cmacdonald/pyterrier_fcrs). We use the alter_eval branch and the corresponding requirements.
 
 The file 'shoes_ege_alter_exp.ipynb' contains an example experiment of our MetaSimProb with EGE in Shoes.
+The file 'shoes_ege_metasimtol_exp.ipynb' contains an example experiment of our MetaSimTol with EGE in Shoes.
