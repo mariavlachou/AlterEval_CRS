@@ -28,3 +28,8 @@ Running the experiments with our Meta-Simulators requires the installation of [P
 
 - The file 'shoes_ege_alter_exp.ipynb' contains an example experiment of our MetaSimProb with EGE in Shoes.
 - The file 'shoes_ege_metasimtol_exp.ipynb' contains an example experiment of our MetaSimTol with EGE in Shoes.
+
+## Conversions Information
+The folder conversions contains two R scripts that convert between measures in order to be used for either sample size planning or hyperparameter tuning. Specifically:
+- The file sample 'sample_size_calculations_Fashion.R' contains the power analysis for our sample size planning to determine the number of required target image items we test for assessment, as described in our paper in Section 3.
+- The file 'metasim_conversions.R' contains the conversion of the effect size of the replication study of Klein et. al. in order to obtain the probability of swtich for our MetaSimProb, as described in our paper in Section 4.
